@@ -1,0 +1,50 @@
+.full_bg.bt_fe
+  .slider_main
+    .container-fluid
+      .row.d_flex
+        .col-md-5
+          .creative
+            h1 Best PHOTO GRAPHY STudio
+            a.read_more(href='contact.html') Contact Us
+        .col-md-7
+          // carousel code
+          #banner1.carousel.slide
+            ol.carousel-indicators
+              li.active(data-target='#banner1', data-slide-to='0')
+              li(data-target='#banner1', data-slide-to='1')
+              li(data-target='#banner1', data-slide-to='2')
+            .carousel-inner
+              // first slide
+              .carousel-item.active
+                .container
+                  .carousel-caption.relative
+                    .row.d_flex
+                      .col-md-12
+                        .cemara
+                          figure
+                            img(src='images/img.png', alt='#')
+              // second slide
+              .carousel-item
+                .container
+                  .carousel-caption.relative
+                    .row.d_flex
+                      .col-md-12
+                        .cemara
+                          figure
+                            img(src='images/img.png', alt='#')
+              // third slide
+              .carousel-item
+                .container
+                  .carousel-caption.relative
+                    .row.d_flex
+                      .col-md-12
+                        .cemara
+                          figure
+                            img(src='images/img.png', alt='#')
+            // controls
+            a.carousel-control-prev(href='#banner1', role='button', data-slide='prev')
+              i.fa.fa-arrow-left(aria-hidden='true')
+              span.sr-only Previous
+            a.carousel-control-next(href='#banner1', role='button', data-slide='next')
+              i.fa.fa-arrow-right(aria-hidden='true')
+              span.sr-only Next

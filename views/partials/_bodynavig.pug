@@ -1,0 +1,44 @@
+body.main-layout
+    // loader
+    .loader_bg
+      .loader
+        img(src='images/loading.gif', alt='#')
+    // end loader
+    // header
+    header.header-area
+      .container-fluid
+        .row
+          .col-md-2.col-sm-3
+            .logo
+              a(href='/')
+                | lens
+                br
+                span light
+          .col-md-8.col-sm-9
+            .navbar-area
+              nav.site-navbar
+                ul
+                  li
+                    a.active(href='/') Home
+                  li
+                    a(href='/about') About
+                  li
+                    a(href='/photo') Photos
+                  li
+                    a(href='services.html') Services
+                  li
+                    a(href='projects.html') Projects
+                  li
+                    a(href='blog.html') Blog
+                  li
+                    a(href='contact.html') Contact
+                button.nav-toggler
+                  span
+          .col-md-2.di_none
+            ul.email.text_align_right
+              li
+                a(href='Javascript:void(0)') Login
+              li
+                a(href='Javascript:void(0)')
+                  i.fa.fa-search(aria-hidden='true')
+    // end header inner
