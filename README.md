@@ -1,2 +1,4 @@
 # NodeJS Express App
-## Dockerize  
+## Pug Template Engine
+## Mongo DB database
+## Route and Controller System
