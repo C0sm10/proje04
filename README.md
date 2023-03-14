@@ -1,5 +1,4 @@
 # NodeJS Express App
 ## Pug Template Engine
-### Mongo DB database connetion
+### MongoDB database conn, Dotenv,
 ### Route and Controller System
-### Dotenv
